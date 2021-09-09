@@ -1,6 +1,6 @@
 pkgname=mingw-w64-geographiclib
 _pkgname=GeographicLib
-pkgver=1.42
+pkgver=1.52
 pkgrel=1
 pkgdesc="Set of C++ classes for conversions between geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates, for gravity, geoid height, and geomagnetic field calculations and for solving geodesic problems. Geotrans replacement."
 arch=(any)
@@ -13,7 +13,7 @@ options=(!strip !buildflags staticlibs)
 source=("http://downloads.sourceforge.net/project/geographiclib/distrib/${_pkgname}-${pkgver}.tar.gz")
 conflicts=(mingw-w64-geographiclib-static)
 provides=(mingw-w64-geographiclib-static)
-md5sums=('114a334765b9c416a2de3dfc72c22d6d')
+md5sums=('52407e8380335957377c6ac6118ce6e3')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
